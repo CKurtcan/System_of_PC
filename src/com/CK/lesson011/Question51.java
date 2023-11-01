@@ -8,7 +8,7 @@ public class Question51 {
     ikiden fazla değer alsın ve arayı yazırsın (varargs)
      */
 
-    public static String araYazma(String deger1, String deger2){
+    public static void araYazma(String deger1, String deger2){
         String[] dizi = new String[2];
         dizi[0] = deger1;
         dizi[1] = deger2;
@@ -20,7 +20,7 @@ public class Question51 {
         }
     }
 
-    public static String araYazma(String...deger){
+    public static void araYazma(String...deger){
 
     }
 
