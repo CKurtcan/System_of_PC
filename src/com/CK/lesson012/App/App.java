@@ -1,4 +1,4 @@
-package com.CK.lesson012;
+package com.CK.lesson012.App;
 
 /*
 1-Taş kağıt makas uygulaması yapacağız bunun için bir sınıf oluşturup
@@ -9,19 +9,12 @@ uygulamayı çalıştıran kişinin ismini tutalım
 2-
  */
 
-import java.util.Random;
-import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) {
 
-
         TasKagitMakas oyun = new TasKagitMakas();
-        oyun.oyuncuAdi = "Mustafa";
-        System.out.println("App main metot ==> " +oyun.secimYap());
 
-
-
+        oyun.uygulama();
 
 
 
