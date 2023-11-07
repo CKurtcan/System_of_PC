@@ -29,8 +29,8 @@ public class AppTest {
             case 1:  break;
             case 2:  break;
             case 3:  break;
-            case 4: showBook(); break;
-            case 5: showBook(); break;
+            case 4: //showBook(); break;
+            case 5: //showBook(); break;
             case 0:
                 System.out.println("Çıkıkş Yapıldı"); break;
             default: break;

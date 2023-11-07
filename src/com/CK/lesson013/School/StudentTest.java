@@ -15,6 +15,5 @@ public class StudentTest {
         Student student1 = repository1.register("Denizhan");
         Student student2 = repository1.register("Can");
 
-        student1.schoolId;
     }
 }
